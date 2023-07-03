@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Gconnect.Infrastructure</RootNamespace>
+        <AssemblyName>Gconnect.Infrastructure</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Models\**" />
+      <Compile Remove="Persistence\Entities\**" />
+      <EmbeddedResource Remove="Models\**" />
+      <EmbeddedResource Remove="Persistence\Entities\**" />
+      <None Remove="Models\**" />
+      <None Remove="Persistence\Entities\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Persistence\Configurations\GisOsmPoisFree1Configuration.cs" />
+      <Compile Remove="Persistence\Configurations\HuyenRegionConfiguration.cs" />
+      <Compile Remove="Persistence\Configurations\LoaiTruongListConfiguration.cs" />
+      <Compile Remove="Persistence\Configurations\RegionItemConfiguration.cs" />
+      <Compile Remove="Persistence\Configurations\RegionListConfiguration.cs" />
+      <Compile Remove="Persistence\Configurations\TinhRegionConfiguration.cs" />
+      <Compile Remove="Persistence\Configurations\XaRegionConfiguration.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CsvHelper" Version="15.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.0" />
+        <PackageReference Include="NLog" Version="5.1.3" />
+        <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.3" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+</Project>

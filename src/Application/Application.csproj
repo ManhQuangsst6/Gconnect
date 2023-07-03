@@ -1,0 +1,134 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Gconnect.Application</RootNamespace>
+        <AssemblyName>Gconnect.Application</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="BanDoNen\**" />
+      <Compile Remove="BoCucBanDo\**" />
+      <Compile Remove="CauHoi\**" />
+      <Compile Remove="ChatLuongGiaoDucs\**" />
+      <Compile Remove="ChuDe\**" />
+      <Compile Remove="CQRS\QuanLyVaiTro\**" />
+      <Compile Remove="DmChung\**" />
+      <Compile Remove="DoiMatKhau\**" />
+      <Compile Remove="DWCanhBaoThuaThieu\**" />
+      <Compile Remove="DWDimGiaoVien\**" />
+      <Compile Remove="DWDimHocSinh\**" />
+      <Compile Remove="DWDimHuyen\**" />
+      <Compile Remove="DWDimKetQuaHocTap\**" />
+      <Compile Remove="DWDimLopHoc\**" />
+      <Compile Remove="DWDimNamHoc\**" />
+      <Compile Remove="DWDimTruong\**" />
+      <Compile Remove="DWFactTruong\**" />
+      <Compile Remove="Huyen\**" />
+      <Compile Remove="LoaiHinh\**" />
+      <Compile Remove="LoaiTruong\**" />
+      <Compile Remove="MatDoColor\**" />
+      <Compile Remove="Menu\**" />
+      <Compile Remove="NhatKyHeThong\**" />
+      <Compile Remove="PhanQuyenNhomNguoiDung\**" />
+      <Compile Remove="PheDuyenThongTin\**" />
+      <Compile Remove="TaiKhoan\**" />
+      <Compile Remove="TaiLieu\**" />
+      <Compile Remove="ThongTinPhanHoi\**" />
+      <Compile Remove="TimKiemBaoCao\**" />
+      <Compile Remove="Tinh\**" />
+      <Compile Remove="TraCuu\**" />
+      <Compile Remove="TrangChu\**" />
+      <Compile Remove="VungBanDo\**" />
+      <Compile Remove="Xa\**" />
+      <EmbeddedResource Remove="BanDoNen\**" />
+      <EmbeddedResource Remove="BoCucBanDo\**" />
+      <EmbeddedResource Remove="CauHoi\**" />
+      <EmbeddedResource Remove="ChatLuongGiaoDucs\**" />
+      <EmbeddedResource Remove="ChuDe\**" />
+      <EmbeddedResource Remove="CQRS\QuanLyVaiTro\**" />
+      <EmbeddedResource Remove="DmChung\**" />
+      <EmbeddedResource Remove="DoiMatKhau\**" />
+      <EmbeddedResource Remove="DWCanhBaoThuaThieu\**" />
+      <EmbeddedResource Remove="DWDimGiaoVien\**" />
+      <EmbeddedResource Remove="DWDimHocSinh\**" />
+      <EmbeddedResource Remove="DWDimHuyen\**" />
+      <EmbeddedResource Remove="DWDimKetQuaHocTap\**" />
+      <EmbeddedResource Remove="DWDimLopHoc\**" />
+      <EmbeddedResource Remove="DWDimNamHoc\**" />
+      <EmbeddedResource Remove="DWDimTruong\**" />
+      <EmbeddedResource Remove="DWFactTruong\**" />
+      <EmbeddedResource Remove="Huyen\**" />
+      <EmbeddedResource Remove="LoaiHinh\**" />
+      <EmbeddedResource Remove="LoaiTruong\**" />
+      <EmbeddedResource Remove="MatDoColor\**" />
+      <EmbeddedResource Remove="Menu\**" />
+      <EmbeddedResource Remove="NhatKyHeThong\**" />
+      <EmbeddedResource Remove="PhanQuyenNhomNguoiDung\**" />
+      <EmbeddedResource Remove="PheDuyenThongTin\**" />
+      <EmbeddedResource Remove="TaiKhoan\**" />
+      <EmbeddedResource Remove="TaiLieu\**" />
+      <EmbeddedResource Remove="ThongTinPhanHoi\**" />
+      <EmbeddedResource Remove="TimKiemBaoCao\**" />
+      <EmbeddedResource Remove="Tinh\**" />
+      <EmbeddedResource Remove="TraCuu\**" />
+      <EmbeddedResource Remove="TrangChu\**" />
+      <EmbeddedResource Remove="VungBanDo\**" />
+      <EmbeddedResource Remove="Xa\**" />
+      <None Remove="BanDoNen\**" />
+      <None Remove="BoCucBanDo\**" />
+      <None Remove="CauHoi\**" />
+      <None Remove="ChatLuongGiaoDucs\**" />
+      <None Remove="ChuDe\**" />
+      <None Remove="CQRS\QuanLyVaiTro\**" />
+      <None Remove="DmChung\**" />
+      <None Remove="DoiMatKhau\**" />
+      <None Remove="DWCanhBaoThuaThieu\**" />
+      <None Remove="DWDimGiaoVien\**" />
+      <None Remove="DWDimHocSinh\**" />
+      <None Remove="DWDimHuyen\**" />
+      <None Remove="DWDimKetQuaHocTap\**" />
+      <None Remove="DWDimLopHoc\**" />
+      <None Remove="DWDimNamHoc\**" />
+      <None Remove="DWDimTruong\**" />
+      <None Remove="DWFactTruong\**" />
+      <None Remove="Huyen\**" />
+      <None Remove="LoaiHinh\**" />
+      <None Remove="LoaiTruong\**" />
+      <None Remove="MatDoColor\**" />
+      <None Remove="Menu\**" />
+      <None Remove="NhatKyHeThong\**" />
+      <None Remove="PhanQuyenNhomNguoiDung\**" />
+      <None Remove="PheDuyenThongTin\**" />
+      <None Remove="TaiKhoan\**" />
+      <None Remove="TaiLieu\**" />
+      <None Remove="ThongTinPhanHoi\**" />
+      <None Remove="TimKiemBaoCao\**" />
+      <None Remove="Tinh\**" />
+      <None Remove="TraCuu\**" />
+      <None Remove="TrangChu\**" />
+      <None Remove="VungBanDo\**" />
+      <None Remove="Xa\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.21.0" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.23" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Services\" />
+    </ItemGroup>
+
+</Project>

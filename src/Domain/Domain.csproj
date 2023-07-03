@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Gconnect.Domain</RootNamespace>
+        <AssemblyName>Gconnect.Domain</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Entities\Basemap.cs" />
+      <Compile Remove="Entities\BoCucBanDo.cs" />
+      <Compile Remove="Entities\BoCucBanDoLopBanDo.cs" />
+      <Compile Remove="Entities\BoCucBanDoVungTinh.cs" />
+      <Compile Remove="Entities\ChuDe.cs" />
+      <Compile Remove="Entities\DanhMucChung.cs" />
+      <Compile Remove="Entities\DiaDiemChoDuyet.cs" />
+      <Compile Remove="Entities\GisOsmLayersExtension.cs" />
+      <Compile Remove="Entities\GisOsmPoisExtension.cs" />
+      <Compile Remove="Entities\GisOsmPoisFeaturesExtension.cs" />
+      <Compile Remove="Entities\GisOsmPoisFree1.cs" />
+      <Compile Remove="Entities\GisOsmPoisFree1BaoCaoCanhBao.cs" />
+      <Compile Remove="Entities\GisOsmPoisFree1BaoCaoEmi.cs" />
+      <Compile Remove="Entities\HoiDap.cs" />
+      <Compile Remove="Entities\HuyenRegion.cs" />
+      <Compile Remove="Entities\LoaiTruongList.cs" />
+      <Compile Remove="Entities\MauSacMatDo.cs" />
+      <Compile Remove="Entities\NhatKyHeThong.cs" />
+      <Compile Remove="Entities\RegionItem.cs" />
+      <Compile Remove="Entities\RegionList.cs" />
+      <Compile Remove="Entities\TaiLieu.cs" />
+      <Compile Remove="Entities\ThongTinPhanHoi.cs" />
+      <Compile Remove="Entities\TimKiemBaoCao.cs" />
+      <Compile Remove="Entities\TinhRegion.cs" />
+      <Compile Remove="Entities\TruongPhanHoiAnh.cs" />
+      <Compile Remove="Entities\TruongPhanHoiLopBanDo.cs" />
+      <Compile Remove="Entities\VungRegion.cs" />
+      <Compile Remove="Entities\XaRegion.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="9.0.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>
